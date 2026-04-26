@@ -217,17 +217,17 @@ app/
 
 ## Task 4: Design tokens + generator
 
-- - [ ] **T4.A — author tokens**
+- - [x] **T4.A — author tokens**
   - `tokens/design-tokens.json` contains palette, type, spacing, radii, motion, breakpoints exactly as DESIGN.md §5.2–§5.6.
   - Zod-type the tokens in `tokens/schema.ts` so the generator parses against a schema and fails loudly on a drift.
 
-- - [ ] **T4.B — generator**
+- - [x] **T4.B — generator**
   - `tokens/generate.mjs` reads `design-tokens.json`, emits:
     - `styles/tokens.css` — CSS custom properties for all token values.
     - `tailwind.theme.generated.ts` — a TS object consumed by `@theme inline`.
   - `package.json` script: `"tokens": "node tokens/generate.mjs"`. Runs automatically via `"predev"` / `"prebuild"`.
 
-- - [ ] **T4.C — wire**
+- - [x] **T4.C — wire**
   - `styles/globals.css` imports `./tokens.css` before Tailwind.
 
 **Acceptance.** Changing a token and rebuilding propagates to a utility class (e.g., `text-accent-gold`).

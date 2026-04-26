@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "6aada7645d239a3c",
+    "type": "split",
+    "children": [
+      {
+        "id": "8cb3fa3f233a31ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "35c00a21e7e9e502",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "specs/2026-04-23-fada-p1-ui-ux-design.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2026-04-23-fada-p1-ui-ux-design"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "baa22008e9aee345",
+    "type": "split",
+    "children": [
+      {
+        "id": "c16356cdfa33a342",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "810ed4022805c039",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "3144200b2f2278a5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "2d2f4e998242f468",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "8456e36239af4165",
+    "type": "split",
+    "children": [
+      {
+        "id": "5f0f8adb14650492",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "53ccfb1e1ee02b7f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
+            }
+          },
+          {
+            "id": "5c024ecb67130995",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
+            }
+          },
+          {
+            "id": "6cebf65926c2f58d",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "0592bd0ca077835c",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "5a2943b6d8d8aff4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "35c00a21e7e9e502",
+  "lastOpenFiles": [
+    "plans/2026-04-23-fada-p1-plan-1-foundation-and-home.md",
+    "plans/2026-04-23-fada-p1-plan-1-foundation-and-home.md.tmp.413880.1776919522632",
+    "plans",
+    "More/Embed Providers.md",
+    "specs/2026-04-23-fada-p1-ui-ux-design.md.tmp.413880.1776918846453",
+    "specs/2026-04-23-fada-p1-ui-ux-design.md.tmp.413880.1776918845506",
+    "specs/2026-04-23-fada-p1-ui-ux-design.md",
+    "specs/2026-04-23-fada-p1-ui-ux-design.md.tmp.413880.1776918803493",
+    "specs",
+    "More/UI-UX.md",
+    "index.md",
+    "More",
+    "[[UI/UX Design.md",
+    "[[UI",
+    "Architecture/System Overview.md",
+    "Architecture/Refactoring Blueprint.md",
+    "Integrations/Stream Providers.md"
+  ]
+}

@@ -1,0 +1,10 @@
+# Editor / OS
+.DS_Store
+*.swp
+.idea/
+.vscode/
+
+# Local-only
+.codex
+*.local
+.claude/settings.local.json

@@ -213,6 +213,29 @@ const eslintConfig = [
       '@typescript-eslint/no-require-imports': 'off',
     },
   },
+
+  // ─── Per-glob: relax strict type-checked rules on vendored shadcn/ui ──
+  // Task 8: shadcn/ui primitives are vendored under components/ui/ — they
+  // are not project code and should not be linted to strict TS rules that
+  // were written for the codebase. Disable strict-type-checked overrides
+  // that flag forwardRef, Readonly<>, and other idiomatic vendored patterns.
+  {
+    files: ['components/ui/**/*.ts', 'components/ui/**/*.tsx'],
+    rules: {
+      '@typescript-eslint/ban-types': 'off',
+      '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-unused-vars': 'off',
+      '@typescript-eslint/no-empty-object-type': 'off',
+      '@typescript-eslint/no-unsafe-assignment': 'off',
+      '@typescript-eslint/no-unsafe-call': 'off',
+      '@typescript-eslint/no-unsafe-member-access': 'off',
+      '@typescript-eslint/no-unsafe-return': 'off',
+      '@typescript-eslint/no-unsafe-argument': 'off',
+      '@typescript-eslint/no-unsafe-function-type': 'off',
+      '@typescript-eslint/no-confusing-void-expression': 'off',
+      '@typescript-eslint/only-throw-error': 'off',
+    },
+  },
 ];
 
 export default eslintConfig;

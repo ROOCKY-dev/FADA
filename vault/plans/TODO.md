@@ -88,7 +88,7 @@ Check items as they land. Each item links to its source-of-truth plan.
 
 - [x] Task 1 — Initialize Next.js 15 App Router project in `app/`
 - [x] Task 2 — Configure TypeScript strict, ESLint, Prettier (with tailwindcss plugin)
-- [ ] Task 3 — Install Tailwind CSS v4 and wire `styles/globals.css`
+- [x] Task 3 — Install Tailwind CSS v4 and wire `styles/globals.css`
 - [ ] Task 4 — Author `tokens/design-tokens.json` and the `tokens/generate.mjs` generator
 - [ ] Task 5 — Self-host IBM Plex Sans Arabic + Plex Mono under `public/fonts/`
 - [ ] Task 6 — Root `<html dir="rtl" lang="ar">` with font variables

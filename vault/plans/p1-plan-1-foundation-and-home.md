@@ -200,15 +200,15 @@ app/
 
 ## Task 3: Tailwind CSS v4 + globals
 
-- - [ ] **T3.A — install**
+- - [x] **T3.A — install**
   - `npm i -D tailwindcss@next @tailwindcss/postcss postcss prettier-plugin-tailwindcss`.
   - `postcss.config.mjs` wires `@tailwindcss/postcss`.
 
-- - [ ] **T3.B — globals.css**
+- - [x] **T3.B — globals.css**
   - `styles/globals.css` imports `@import "tailwindcss";` at top, then a `@theme inline { ... }` block consuming CSS variables from `tokens` (wired in Task 4).
   - Base layer resets scrollbar, sets `font-feature-settings: "tnum"` on `.mono`, forces `-webkit-font-smoothing: antialiased`.
 
-- - [ ] **T3.C — next.config**
+- - [x] **T3.C — next.config**
   - `next.config.mjs`: `output: 'export'`, `images.unoptimized: true` (static export requirement), image loader configured for `image.tmdb.org`.
 
 **Acceptance.** `npm run build` succeeds; `out/` directory is produced.

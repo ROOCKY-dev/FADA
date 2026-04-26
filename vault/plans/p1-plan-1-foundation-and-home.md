@@ -236,7 +236,7 @@ app/
 
 ## Task 5: Self-host fonts
 
-- - [ ] **T5 — fonts**
+- - [x] **T5 — fonts**
   - Download IBM Plex Sans Arabic (Regular/Medium/SemiBold/Bold) and IBM Plex Mono Regular as `.woff2` into `public/fonts/`.
   - Register via `next/font/local` in `app/layout.tsx`, exposing CSS variables `--font-sans` and `--font-mono` on `<html>`.
   - Set `display: 'swap'` and preload Regular + Bold weights.

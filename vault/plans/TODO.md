@@ -92,7 +92,7 @@ Check items as they land. Each item links to its source-of-truth plan.
 - [x] Task 4 — Author `tokens/design-tokens.json` and the `tokens/generate.mjs` generator
 - [x] Task 5 — Self-host IBM Plex Sans Arabic + Plex Mono under `public/fonts/`
 - [x] Task 6 — Root `<html dir="rtl" lang="ar">` with font variables
-- [ ] Task 7 — Install next-intl, author `messages/ar.json`, wire `IntlProvider`
+- [x] Task 7 — Install next-intl, author `messages/ar.json`, wire `IntlProvider`
 - [ ] Task 8 — Install shadcn/ui and add the 14 primitives used in P1
 - [ ] Task 9 — Implement Zod schema for `fada.v1` localStorage root
 - [ ] Task 10 — Implement Zustand store (watchlist, preferences, recentSearches, tmdb)

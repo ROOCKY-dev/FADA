@@ -260,13 +260,13 @@ app/
 
 ## Task 7: next-intl + ar.json
 
-- - [ ] **T7.A — install**
+- - [x] **T7.A — install**
   - `npm i next-intl`.
 
-- - [ ] **T7.B — provider**
+- - [x] **T7.B — provider**
   - `components/providers/IntlProvider.tsx`: server-side load `ar.json`, pass to `<NextIntlClientProvider locale="ar" messages={...}>`.
 
-- - [ ] **T7.C — messages**
+- - [x] **T7.C — messages**
   - `messages/ar.json` seeded with every user-facing string identified in this plan. Use flat keys grouped by surface: `nav.home`, `nav.movies`, `home.rail.trendingGlobal`, `empty.watchlist.title`, etc.
   - Organize by surface in commented sections (JSON doesn't support comments — use key prefixes).
 

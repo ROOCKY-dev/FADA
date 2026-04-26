@@ -1,0 +1,73 @@
+{
+  "breakpoints": {
+    "lg": "1024px",
+    "md": "768px",
+    "sm": "640px",
+    "wide": "1440px",
+    "xl": "1920px"
+  },
+  "motion": {
+    "duration": {
+      "fast": "120ms",
+      "normal": "220ms",
+      "slow": "400ms"
+    },
+    "easing": {
+      "default": "cubic-bezier(0.2, 0.8, 0.2, 1)"
+    }
+  },
+  "palette": {
+    "accent": {
+      "gold": "#E6B64A"
+    },
+    "bg": {
+      "base": "#0B0D14",
+      "surface": "#12151F"
+    },
+    "danger": "#E5484D",
+    "fg": {
+      "muted": "#8A93AB",
+      "primary": "#E8ECF5"
+    },
+    "success": "#2E844A"
+  },
+  "radii": {
+    "lg": "12px",
+    "md": "8px",
+    "pill": "9999px",
+    "sm": "4px",
+    "xl": "24px"
+  },
+  "spacing": {
+    "1": "4px",
+    "2": "8px",
+    "3": "12px",
+    "4": "16px",
+    "6": "24px",
+    "8": "32px",
+    "12": "48px",
+    "16": "64px"
+  },
+  "type": {
+    "family": {
+      "arabic": "IBM Plex Sans Arabic, sans-serif",
+      "mono": "IBM Plex Mono, monospace"
+    },
+    "scale": {
+      "2xl": "36px",
+      "3xl": "48px",
+      "base": "16px",
+      "lg": "18px",
+      "md": "14px",
+      "sm": "12px",
+      "xl": "22px",
+      "xxl": "28px"
+    },
+    "weight": {
+      "bold": "700",
+      "medium": "500",
+      "normal": "400",
+      "semibold": "600"
+    }
+  }
+}

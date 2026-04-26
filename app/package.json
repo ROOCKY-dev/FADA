@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "tokens": "node tokens/generate.mjs",
+    "predev": "npm run tokens",
     "dev": "next dev --turbopack",
+    "prebuild": "npm run tokens",
     "build": "next build --turbopack",
     "start": "next start",
     "lint": "eslint",
@@ -13,7 +16,8 @@
   "dependencies": {
     "next": "15.5.15",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "zod": "^4.3.6"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",

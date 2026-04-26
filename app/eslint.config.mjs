@@ -48,6 +48,9 @@ const eslintConfig = [
       'eslint.config.mjs',
       'next.config.ts',
       'postcss.config.mjs',
+      // Token generator and schema are plain ESM — not part of the TS project
+      'tokens/generate.mjs',
+      'tokens/schema.mjs',
     ],
   },
 

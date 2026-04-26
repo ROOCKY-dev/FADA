@@ -276,7 +276,7 @@ app/
 
 ## Task 8: shadcn/ui primitives
 
-- - [ ] **T8 — install primitives**
+- - [x] **T8 — install primitives**
   - `npx shadcn@latest init` with the palette and base CSS variables from the tokens.
   - Add the 15 primitives listed in Scope. Vendored under `components/ui/`, vanilla — do not modify them for styling; consume tokens via CSS variables.
   - Verify each imports cleanly with tree-shaking (no "server component" bundling surprises).

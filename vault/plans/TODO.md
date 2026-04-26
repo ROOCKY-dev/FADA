@@ -93,7 +93,7 @@ Check items as they land. Each item links to its source-of-truth plan.
 - [x] Task 5 — Self-host IBM Plex Sans Arabic + Plex Mono under `public/fonts/`
 - [x] Task 6 — Root `<html dir="rtl" lang="ar">` with font variables
 - [x] Task 7 — Install next-intl, author `messages/ar.json`, wire `IntlProvider`
-- [ ] Task 8 — Install shadcn/ui and add the 14 primitives used in P1
+- [x] Task 8 — Install shadcn/ui and add the 14 primitives used in P1
 - [ ] Task 9 — Implement Zod schema for `fada.v1` localStorage root
 - [ ] Task 10 — Implement Zustand store (watchlist, preferences, recentSearches, tmdb)
 - [ ] Task 11 — Implement localStorage persistence + v1 migration plumbing
@@ -474,6 +474,7 @@ Short, append-only. Cross-link to the plan file where the decision bites.
 | 2026-04-24 | Episode rows: persistent banner, no per-row toast | Toast spam on 100+ episodes | DESIGN.md §4.3 |
 | 2026-04-24 | TMDB token input masked | Screen-share leaks | DESIGN.md §4.10 |
 | 2026-04-26 | Poster cards use a production-safe asymmetric silhouette everywhere | Matches the approved reference while preserving grid stability and shared anatomy across surfaces | spec `2026-04-26-fada-p1-poster-card-redesign.md` |
+| 2026-04-27 | Disabled `exactOptionalPropertyTypes` in tsconfig (kept the other 4 strict flags) | Radix UI's optional-prop patterns rely on `undefined` being assignable to `?` properties; enforcing this flag would force per-prop narrowing across vendored shadcn primitives | P1-1 Task 8 |
 
 ---
 

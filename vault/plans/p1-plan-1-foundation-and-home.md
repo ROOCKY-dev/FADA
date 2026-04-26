@@ -173,11 +173,11 @@ app/
 
 ## Task 2: TypeScript strict, ESLint + FADA rules, Prettier
 
-- - [ ] **T2.A — tsconfig strict**
+- - [x] **T2.A — tsconfig strict**
   - In `app/tsconfig.json` set `"strict": true`, `"noUncheckedIndexedAccess": true`, `"noImplicitOverride": true`, `"exactOptionalPropertyTypes": true`, `"verbatimModuleSyntax": true`.
   - Add `"paths"` entries: `@/components/*`, `@/lib/*`, `@/messages/*`, `@/tokens/*`.
 
-- - [ ] **T2.B — ESLint**
+- - [x] **T2.B — ESLint**
   - Extend `next/core-web-vitals` + `plugin:@typescript-eslint/strict-type-checked` + `plugin:jsx-a11y/recommended`.
   - Wire `eslint-plugin-fada/` (local plugin, see Task 2.C).
   - Add the rules listed in `00-conventions.md §5`, in particular:
@@ -186,11 +186,11 @@ app/
     - `fada/no-direct-localstorage`.
     - `fada/logo-is-anchor`.
 
-- - [ ] **T2.C — FADA lint plugin**
+- - [x] **T2.C — FADA lint plugin**
   - Scaffold `app/eslint-plugin-fada/index.js` exporting `{ rules }`.
   - Implement the three custom rules with AST walkers. Unit test each against a fixture file of valid/invalid cases. Rules live in `app/eslint-plugin-fada/__tests__/`.
 
-- - [ ] **T2.D — Prettier**
+- - [x] **T2.D — Prettier**
   - `.prettierrc`: `{ "semi": true, "singleQuote": true, "plugins": ["prettier-plugin-tailwindcss"] }`.
   - `npm run format` = `prettier --write .`.
 

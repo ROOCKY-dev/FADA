@@ -247,7 +247,7 @@ app/
 
 ## Task 6: RTL root layout
 
-- - [ ] **T6 — layout.tsx**
+- - [x] **T6 — layout.tsx**
   - `<html dir="rtl" lang="ar" className={`${sans.variable} ${mono.variable}`}>`.
   - Wrap `children` in `<IntlProvider>` (Task 7) and `<QueryProvider>` (Task 14).
   - Metadata object: title "FADA | فضاء", description (Arabic).

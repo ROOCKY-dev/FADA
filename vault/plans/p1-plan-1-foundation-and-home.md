@@ -162,7 +162,7 @@ app/
 
 ## Task 1: Initialize Next.js 15 project
 
-- - [ ] **T1 — scaffold**
+- - [x] **T1 — scaffold**
   - `cd '/home/ahmed/Projects/Fada | فضاء' && npx create-next-app@15 app --typescript --app --eslint --no-tailwind --src-dir=false --import-alias '@/*'`. (Tailwind is added manually in Task 3 to get v4.)
   - Remove the boilerplate `app/page.tsx` contents (we'll rewrite in Task 21).
   - Commit: `chore(p1-1): bootstrap next 15 app`.

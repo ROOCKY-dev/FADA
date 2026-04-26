@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "home": "الرئيسية",
+    "movies": "الأفلام",
+    "shows": "المسلسلات",
+    "collections": "المجموعات",
+    "watchlist": "قائمتي",
+    "search": "البحث",
+    "settings": "الإعدادات",
+    "more": "المزيد",
+    "iptvComingSoon": "قريبًا — IPTV",
+    "sportsComingSoon": "قريبًا — الرياضة المباشرة",
+    "mangaComingSoon": "قريبًا — المانجا"
+  },
+  "home": {
+    "rail": {
+      "trendingGlobal": "الرائج عالميًا هذا الأسبوع",
+      "popularArabicMovies": "أفلام عربية مختارة",
+      "trendingAnime": "أنمي رائج",
+      "popularTurkishDramas": "مسلسلات تركية رائجة",
+      "popularKoreanDramas": "مسلسلات كورية رائجة"
+    },
+    "hero": {
+      "titlePlaceholder": "فضاء — البوابة",
+      "subtitlePlaceholder": "اكتشف كنوز السينما والدراما من حول العالم"
+    },
+    "seeAll": "عرض الكل"
+  },
+  "empty": {
+    "watchlist": {
+      "title": "قائمتك فارغة",
+      "description": "اضغط على نجمة بجانب أي عمل لإضافته إلى قائمتك."
+    },
+    "search": {
+      "title": "ابدأ البحث",
+      "description": "اكتب اسم فيلم أو مسلسل في المربع أعلاه."
+    },
+    "rail": {
+      "description": "لا يوجد محتوى كافٍ هنا بعد."
+    },
+    "grid": {
+      "title": "لا توجد نتائج",
+      "description": "جرب تعديل المرشحات أو ابحث عن عنوان آخر."
+    }
+  },
+  "stub": {
+    "movies": {
+      "title": "الأفلام",
+      "description": "صفحة تصفح الأفلام قادمة في الإصدار 0.1.0 — الخطة الثانية."
+    },
+    "shows": {
+      "title": "المسلسلات",
+      "description": "صفحة تصفح المسلسلات قادمة في الإصدار 0.1.0 — الخطة الثانية."
+    },
+    "collections": {
+      "title": "المجموعات",
+      "description": "صفحة المجموعات قادمة في الإصدار 0.1.0 — الخطة الثانية."
+    },
+    "watchlist": {
+      "title": "قائمتي",
+      "description": "صفحة قائمتي قادمة في الإصدار 0.1.0 — الخطة الثانية."
+    },
+    "search": {
+      "title": "البحث",
+      "description": "صفحة البحث الموحّدة قادمة في الإصدار 0.1.0 — الخطة الثالثة."
+    },
+    "settings": {
+      "title": "الإعدادات",
+      "description": "صفحة الإعدادات قادمة في الإصدار 0.1.0 — الخطة الثالثة."
+    }
+  },
+  "search": {
+    "placeholder": "ابحث عن فيلم أو مسلسل…",
+    "recent": "عمليات البحث الأخيرة",
+    "clearRecent": "مسح السجل",
+    "shortcutHint": "اضغط /"
+  },
+  "toast": {
+    "playbackComingV02": "المشاهدة قادمة في الإصدار 0.2"
+  },
+  "a11y": {
+    "skipToMain": "تخطّى إلى المحتوى الرئيسي",
+    "openSidebar": "فتح القائمة الجانبية",
+    "closeSidebar": "إغلاق القائمة الجانبية",
+    "toggleWatchlist": "تبديل الإضافة إلى قائمتي",
+    "expandPosterCard": "توسيع البطاقة",
+    "collapsePosterCard": "تصغير البطاقة",
+    "scrollRailLeft": "تمرير الرف لليسار",
+    "scrollRailRight": "تمرير الرف لليمين"
+  },
+  "rail": {
+    "suggestAdd": "اقترح إضافة",
+    "scrollPrev": "السابق",
+    "scrollNext": "التالي"
+  }
+}

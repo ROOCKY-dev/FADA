@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "../styles/globals.css";
+import { IntlProvider } from "@/components/providers/IntlProvider";
 
 const sans = localFont({
   src: [
@@ -62,9 +63,11 @@ export default function RootLayout({
         >
           تخطّى إلى المحتوى الرئيسي
         </a>
-        <main id="main">
-          {children}
-        </main>
+        <IntlProvider>
+          <main id="main">
+            {children}
+          </main>
+        </IntlProvider>
       </body>
     </html>
   );

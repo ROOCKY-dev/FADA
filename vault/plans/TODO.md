@@ -44,7 +44,7 @@ status: active
 
 | Plan | Tasks | Status | Key deliverable |
 |---|---|---|---|
-| [P1-1 Foundation & Home](p1-plan-1-foundation-and-home.md) | 27 | 🟢 | Next.js 15 scaffold, tokens, sidebar, home rails |
+| [P1-1 Foundation & Home](p1-plan-1-foundation-and-home.md) | 27 | 🟡 | Next.js 15 scaffold, tokens, sidebar, home rails |
 | [P1-2 Browse/Detail/Watchlist](p1-plan-2-browse-detail-watchlist.md) | 22 | ⬜ | Movies/Shows browse, detail tabs, watchlist grid |
 | [P1-3 Search/Discover/Settings](p1-plan-3-search-discover-settings.md) | 18 | ⬜ | Search+Discover unified, full Settings |
 | [P1-4 Constellation & Gates](p1-plan-4-constellation-and-gates.md) | 20 | ⬜ | Canvas constellation, CI gates, v0.1 release |
@@ -86,33 +86,33 @@ Check items as they land. Each item links to its source-of-truth plan.
 
 ### P1-1 · Foundation & Home ([plan](p1-plan-1-foundation-and-home.md))
 
-- [x] Task 1 — Initialize Next.js 15 App Router project in `app/`
-- [x] Task 2 — Configure TypeScript strict, ESLint, Prettier (with tailwindcss plugin)
-- [x] Task 3 — Install Tailwind CSS v4 and wire `styles/globals.css`
-- [x] Task 4 — Author `tokens/design-tokens.json` and the `tokens/generate.mjs` generator
-- [x] Task 5 — Self-host IBM Plex Sans Arabic + Plex Mono under `public/fonts/`
-- [x] Task 6 — Root `<html dir="rtl" lang="ar">` with font variables
-- [x] Task 7 — Install next-intl, author `messages/ar.json`, wire `IntlProvider`
-- [x] Task 8 — Install shadcn/ui and add the 14 primitives used in P1
-- [x] Task 9 — Implement Zod schema for `fada.v1` localStorage root
-- [x] Task 10 — Implement Zustand store (watchlist, preferences, recentSearches, tmdb)
-- [x] Task 11 — Implement localStorage persistence + v1 migration plumbing
-- [x] Task 12 — Implement TMDB client (`lib/tmdb/client.ts`) with token resolution
-- [x] Task 13 — Implement typed TMDB endpoints + Zod response validation
-- [x] Task 14 — Configure React Query + `persistQueryClient` with stale-time table
-- [x] Task 15 — Implement `<Sidebar>` with five responsive states (mobile/tablet/desktop/wide/tv)
-- [x] Task 16 — Implement `<BottomNav>` for mobile
-- [x] Task 17 — Implement `<FloatingSearchPill>` with `/` + `Ctrl/Cmd+K` shortcuts
-- [x] Task 18 — Implement global `<PosterCard>` asymmetric redesign with monochrome fallback
-- [x] Task 19 — Implement `<Rail>` with RTL-aware scroll and rail-level empty state
-- [x] Task 20 — Implement `<StarLoader>` + `<StarEmptyState>` (Lottie-backed)
-- [x] Task 21 — Build Home page `/` with six rails (hero deferred to P1-4)
-- [x] Task 22 — Wire the "Logo → /" anchor contract project-wide
-- [x] Task 23 — Build stub pages for `/movies`, `/shows`, `/collections`, `/watchlist`, `/search`, `/settings`
-- [x] Task 24 — Configure Next.js static export (`output: 'export'`)
-- [x] Task 25 — Configure Vitest + @testing-library/react
-- [x] Task 26 — Configure Playwright with a smoke spec
-- [x] Task 27 — Plan 1 acceptance gate: typecheck, lint, unit, component, smoke-e2e all green
+- [ ] Task 1 — Initialize Next.js 15 App Router project in `app/`
+- [ ] Task 2 — Configure TypeScript strict, ESLint, Prettier (with tailwindcss plugin)
+- [ ] Task 3 — Install Tailwind CSS v4 and wire `styles/globals.css`
+- [ ] Task 4 — Author `tokens/design-tokens.json` and the `tokens/generate.mjs` generator
+- [ ] Task 5 — Self-host IBM Plex Sans Arabic + Plex Mono under `public/fonts/`
+- [ ] Task 6 — Root `<html dir="rtl" lang="ar">` with font variables
+- [ ] Task 7 — Install next-intl, author `messages/ar.json`, wire `IntlProvider`
+- [ ] Task 8 — Install shadcn/ui and add the 14 primitives used in P1
+- [ ] Task 9 — Implement Zod schema for `fada.v1` localStorage root
+- [ ] Task 10 — Implement Zustand store (watchlist, preferences, recentSearches, tmdb)
+- [ ] Task 11 — Implement localStorage persistence + v1 migration plumbing
+- [ ] Task 12 — Implement TMDB client (`lib/tmdb/client.ts`) with token resolution
+- [ ] Task 13 — Implement typed TMDB endpoints + Zod response validation
+- [ ] Task 14 — Configure React Query + `persistQueryClient` with stale-time table
+- [ ] Task 15 — Implement `<Sidebar>` with five responsive states (mobile/tablet/desktop/wide/tv)
+- [ ] Task 16 — Implement `<BottomNav>` for mobile
+- [ ] Task 17 — Implement `<FloatingSearchPill>` with `/` + `Ctrl/Cmd+K` shortcuts
+- [ ] Task 18 — Implement global `<PosterCard>` asymmetric redesign with monochrome fallback
+- [ ] Task 19 — Implement `<Rail>` with RTL-aware scroll and rail-level empty state
+- [ ] Task 20 — Implement `<StarLoader>` + `<StarEmptyState>` (Lottie-backed)
+- [ ] Task 21 — Build Home page `/` with six rails (hero deferred to P1-4)
+- [ ] Task 22 — Wire the "Logo → /" anchor contract project-wide
+- [ ] Task 23 — Build stub pages for `/movies`, `/shows`, `/collections`, `/watchlist`, `/search`, `/settings`
+- [ ] Task 24 — Configure Next.js static export (`output: 'export'`)
+- [ ] Task 25 — Configure Vitest + @testing-library/react
+- [ ] Task 26 — Configure Playwright with a smoke spec
+- [ ] Task 27 — Plan 1 acceptance gate: typecheck, lint, unit, component, smoke-e2e all green
 
 ### P1-2 · Browse / Detail / Watchlist ([plan](p1-plan-2-browse-detail-watchlist.md))
 
@@ -485,6 +485,7 @@ Short, append-only. Bump when you re-scope a plan or add/remove a task.
 |---|---|
 | 2026-04-24 | Initial multi-phase tracker created. Replaces previous P1-only plan set. |
 | 2026-04-26 | Marked P1 and P1-1 as in progress, and re-scoped P1-1 Task 18 to the approved global poster-card redesign with a dedicated spec delta. |
+| 2026-04-27 | Repository reinitialized: prior `app/` scaffold discarded, fresh git history on Production/Development branches. P1-1 task tracking reset to start over from Task 1 on Development. |
 
 ---
 
